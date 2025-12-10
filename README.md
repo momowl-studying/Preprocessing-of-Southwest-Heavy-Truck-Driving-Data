@@ -10,5 +10,5 @@ The steps of data preprocessing are as follows:
 7. Segment data and extract features (characterindex.py)
 8. Merge features of dataset 1 and dataset 2
 9. Optimize initial clustering centers using PSO algorithm and cluster using K-Means algorithm (PSO_KMeans.py)
-Use REF_parameter_selection.py to determine the optimal number of feature subsets for all standard features and fluctuation features (REF parameter selection)
-The training process of the LVQ model is carried out using the "lvqnetwork.m" file.
+Use REF_parameter_selection.py to determine the optimal number of feature subsets for all standard features and fluctuation features.
+The training process of the LVQ model is carried out using the "LVQnetwork.m" file.
